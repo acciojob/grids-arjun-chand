@@ -17,12 +17,12 @@
 		.columns{
 			border: 2px dotted rgb(38, 38, 43);
 		}
-		.teal-bg { background-color: teal; }
-		.thistle-bg { background-color: thistle; }
-		.tomato-bg { background-color: tomato; }
-		.turquoise-bg { background-color: turquoise; }
-		.violet-bg { background-color: violet; }
-		.yellowgreen-bg { background-color: yellowgreen; }
+		.r1c1 { background-color: teal; }
+		.r1c2 { background-color: thistle; }
+		.r2c1 { background-color: tomato; }
+		.r2c2 { background-color: turquoise; }
+		.r3c1 { background-color: violet; }
+		.r3c2 { background-color: yellowgreen; }
 		.brown-bg{
 			background-color: #290000;
 		}
@@ -31,27 +31,27 @@
   <body>
 	<div class="container text-center brown-bg">
 		<div class="row rows">
-		  <div class="col-md-5 columns teal-bg">
+		  <div class="col-md-5 columns r1c1">
 			Row1 col1
 		  </div>
-		  <div class="col-md-7 columns thistle-bg">
+		  <div class="col-md-7 columns r1c2">
 			Row1 col2
 		  </div>
 		</div>
-		<div class="row rows d-flex justify-content-around">
-		  <div class="col-md-4  columns tomato-bg">
+		<div class="row rows d-flex justify-content-between">
+		  <div class="col-md-4  columns r2c1">
 			Row2 col1
 		  </div>
 		  
-		  <div class="col-md-4 columns turquoise-bg">
+		  <div class="col-md-4 columns r2c2">
 			Row2 col2
 		  </div>
 		</div>
 		<div class="row rows d-flex justify-content-center ">
-			<div class="col-md-4 columns violet-bg">
+			<div class="col-md-4 columns r3c1">
 				Row3 col1
 			</div>
-			<div class="col-md-4 columns yellowgreen-bg">
+			<div class="col-md-4 columns r3c2">
 				Row3 col2
 			</div>
 		</div>
